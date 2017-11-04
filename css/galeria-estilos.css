@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3/11/2017, 08:26:00 PM
+    Author     : Ismael
+*/
+section#galeria>div{
+    width: 33.3%;
+    padding: 3vh 0;
+}
+section#galeria>div img{
+    width: 80%;
+}
+section#galeria>div#img1{
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+section#galeria>div#img2,
+section#galeria>div#img4,
+section#galeria>div#img6{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+section#galeria>div#img3{
+    -webkit-filter: sepia(90%);
+    filter: sepia(90%);
+}
+@media (max-width: 480px){
+    section#galeria>div{
+        margin-bottom: 3vh;
+        width: 100%;
+    }
+    section#galeria>div img{
+        width: 95%;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px){
+    section#galeria>div{
+        margin-bottom: 3vh;
+        width: 100%;
+    }
+    section#galeria>div img{
+        width: 90%;
+    }
+}
+@media (min-width: 769px) and (max-width: 1200px){
+}

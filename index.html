@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+        <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet"/>
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Comenzando con la fotografía</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html" class="active" title="Inicio">Inicio</a></li>
+                        <li><a href="paisajes.html" title="Paisajes">Paisajes</a></li>
+                        <li><a href="retratos.html" title="Retratos">Retratos</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section id="cental">
+                <picture>
+                    <source media="(max-width:480px)" srcset="img/img-central-480.jpg" />
+                    <source media="(max-width:768px)" srcset="img/img-central-768.jpg" />
+                    <img src="img/img-central-big.jpg" alt=""/>
+                </picture>
+            </section>
+            <section id="secundaria">
+                <div id="img1">
+                    <a href="paisajes.html" >
+                        <picture>
+                            <source media="(max-width:768px)" srcset="img/paisaje-small.jpg" />
+                            <img src="img/paisaje-big.jpg" alt="Paisajes" />
+                        </picture>
+                        <span>Paisajes</span>
+                    </a>
+                </div>
+                <div id="img2">
+                    <a href="retratos.html" >
+                        <picture>
+                            <source media="(max-width:768px)" srcset="img/foto-small.jpg" />
+                            <img src="img/foto-big.jpg" alt="Fotos" />
+                        </picture>
+                        <span>Retratos</span>
+                    </a>
+                </div>
+            </section>
+            <footer>
+                <div id="contacto" class="footer-col">
+                    <h3>Contácto</h3>
+                    <p>ismael58823@hotmail.com</p>
+                    <p>(+57) 317 872 7030</p>
+                    <p>Bogotá, Colombia</p>
+                </div>
+                <div id="terminos" class="footer-col">
+                    <h3>Terminos</h3>
+                    <p>Conoce nuestros terminos y condiciones <strong><a href="#" >aquí</a></strong></p>
+                </div>
+                <div id="redes-sociales" class="footer-col">
+                    <h3>Redes sociales</h3>
+                    <a class="btn-social" href="#"><img src="img/facebook-icono.png" alt="Facebook" /> Contactanos también en Facebook</a>
+                    <a class="btn-social" href="#"><img src="img/twitter-icono.png" alt="Twitter" /> Sigenos en twitter</a>
+                    <a class="btn-social" href="#"><img src="img/instagram-icono.png" alt="Instagram" /> Sigenos en Intagram</a>
+                </div>
+                <div id="copyright" class="footer-col">
+                    <h3>Derechos</h3>
+                    <p>CopyRight © IASP 2017</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
